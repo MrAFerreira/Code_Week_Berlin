@@ -1,0 +1,45 @@
+/* Css Intro */
+
+body /* Selector */ {
+  background-color: /* Property */ whitesmoke; /* Value */
+}
+
+/* Selectors */
+
+/* Type Selector */
+
+h1 {
+  text-align: center;
+}
+
+p {
+  color: blue;
+}
+
+/* Class Selector */
+
+.inverted {
+  background-color: #000000;
+  color: white;
+}
+
+.italics {
+  font-style: italic;
+}
+
+/* ID Selector */
+
+#larger-text {
+  font-size: larger;
+}
+
+/* Universal Selector */
+
+* {
+}
+
+/* Child Selector */
+
+div p {
+  color: red;
+}
