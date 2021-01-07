@@ -1,0 +1,104 @@
+/* CSS comment */
+
+/* Style Reset */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+/* ------- */
+
+/* Box Model */
+
+.box-model {
+  width: 200px;
+  height: 200px;
+  color: white;
+  /* Color */
+  /* Name - red */
+  /* Hexadecimal - #ff0000 */
+  /* Rgb - rgb(255, 0, 0) */
+  /* Rgba - rgba(255, 0, 0, 0.5) */
+  background-color: #ff0000;
+
+  /* Border */
+
+  border: 5px solid black; /* shorthand for border */
+
+  /*  border-width: 5px 20px; */
+
+  /* border-width: 5px;
+  border-style: solid;
+  border-color: black; */
+
+  /* border-style: dashed; */
+
+  /* border-radius: 20px; */
+
+  /* -- Padding -- */
+  padding: 20px;
+
+  /* -- Margin --*/
+
+  margin: 30px;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+/* -- Text --*/
+
+/* To change the font we use font-family
+We provide more than one option in case the browser doesn't have the first one
+*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+/* To change size we use font-size: */
+h1 {
+  font-size: 20px;
+}
+
+.styled {
+  font-style: oblique;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.wavy {
+  text-decoration: underline wavy red;
+}
+
+.justified {
+  text-align: justify;
+}
+
+.line-height {
+  line-height: 2;
+}
