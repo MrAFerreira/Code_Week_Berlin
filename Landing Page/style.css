@@ -1,0 +1,169 @@
+/* Style Reset & variables */
+:root {
+  --dark-color: #282e34;
+  --light-color: #f4f4f4;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--light-color);
+}
+
+/* Header */
+
+header {
+  color: #edf0f1;
+}
+
+/* navbar */
+nav {
+  background-color: var(--dark-color);
+}
+
+/* float right pushes the ul (nav-list) to the right of the screen */
+.nav-list {
+  float: right;
+}
+/* display inline-block turns the elements into inline elements, so they don't occupy the whole width of the screen */
+nav * {
+  color: #edf0f1;
+  display: inline-block;
+}
+
+.nav-link a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.logo {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* jumbotron */
+
+.jumbotron {
+  height: 400px;
+  background-image: url(./imgs/img1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.jumbotron-text {
+  background-color: var(--dark-color);
+  opacity: 0.9;
+  position: absolute;
+  top: 150px;
+  width: 100vw;
+}
+
+button {
+  background-color: #0069d9;
+  color: #dddddd;
+  border: 2px solid #0069d9;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.jumbotron button {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  top: 300px;
+}
+
+/* Features Section */
+
+#features {
+  background-color: var(--light-color);
+  color: #666;
+}
+
+#features div {
+  text-align: center;
+  margin: 50px 10vw 0 10vw;
+}
+
+#features img {
+  max-width: 40vw;
+}
+
+/* Plans Section */
+
+#plans {
+  background-color: var(--dark-color);
+  color: #ddd;
+}
+
+.card {
+  width: 300px;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0 auto;
+}
+
+.card ol {
+  margin: 30px 0;
+  text-align: left;
+}
+
+hr {
+  max-width: 50%;
+  border-color: var(--light-color);
+}
+
+/* About */
+
+#about {
+  background-color: var(--light-color);
+  color: #666;
+  margin: 50px 10%;
+}
+
+form {
+  width: 50%;
+}
+
+.form-email {
+  width: 70%;
+  height: 28px;
+}
+
+.form-input {
+  cursor: pointer;
+  background-color: #0069d9;
+  color: #ddd;
+  border: 2px solid #0069d9;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--dark-color);
+  color: #666;
+  height: 100px;
+  padding: 10px;
+}
+
+footer ul {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+footer a {
+  color: #666;
+  text-decoration: none;
+}
