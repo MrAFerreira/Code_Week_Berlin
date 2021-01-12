@@ -1,0 +1,51 @@
+/* Flexbox - Flexible Box */
+html {
+  box-sizing: border-box;
+}
+
+/* Flex Container is the parent element, the one where we apply flexbox*/
+
+/* Flex Children - everything inside of the flex container */
+
+.parent {
+  width: 90vw;
+  height: 90vh;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: row; /* By default it's row */
+  justify-content: space-evenly; /* targeting the main axis */
+  align-items: center; /* targeting the cross axis */
+  flex-wrap: wrap; /* By default it's nowrap */
+}
+
+/* We have 2 axis - Main and Cross
+
+flex-direction: row - The main axis is the horizontal
+flex-direction: column - The main axis is the vertical one */
+
+.parent div {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red {
+  background-color: red;
+  height: 100px;
+}
+
+.green {
+  background-color: green;
+  height: 120px;
+}
+
+.blue {
+  background-color: blue;
+  height: 140px;
+}
+
+.yellow {
+  background-color: yellow;
+  height: 130px;
+}
